@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <title>Apps</title>
+</head>
+
+<body>
+
+    <!-- Media -->
+    <video id="main-video" preload="false">
+        <source src="media/video.mp4" type="video/mp4"/>
+    </video>
+
+    <audio id="music" loop>
+        <source src="media/music.mp3" type="audio/mp3"/>
+    </audio>
+
+    <audio id="audio1">
+        <source src="media/1.mp3" type="audio/mp3"/>
+    </audio>
+
+    <audio id="audio2">
+        <source src="media/2.mp3" type="audio/mp3"/>
+    </audio>
+
+    <audio id="audio3">
+        <source src="media/3.mp3" type="audio/mp3"/>
+    </audio>
+
+    <audio id="audio4">
+        <source src="media/4.mp3" type="audio/mp3"/>
+    </audio>
+
+    <audio id="audio5">
+        <source src="media/5.mp3" type="audio/mp3"/>
+    </audio>
+
+    <audio id="audio6">
+        <source src="media/6.mp3" type="audio/mp3"/>
+    </audio>
+
+    <!-- Header -->
+    <header class="main-header">
+        <h2 class="logo">
+            <img src="img/logo.svg" alt="Apps"/>
+        </h2>
+    </header>
+
+    <!-- Intro -->
+    <section id="intro">
+        <header>
+            <h2>Are you over 18 years old?</h2>
+            <p class="intro-buttons">
+                <a href="#" class="button" id="button-yes">Yes</a>
+                <a href="#" class="button" id="button-no">No</a>
+            </p>
+            <p id="intro-later">
+                We are looking forward to see you when you turn 18 years old
+            </p>
+        </header>
+    </section>
+
+    <!-- Home -->
+    <section class="home-section" id="home">
+        <header>
+            <h2>
+                Pluck, squeeze, pour
+            </h2>
+            <p>
+                It's an action-simulator for cider making.
+                You need to make refreshing cidre from some apples.
+                Pay attention and be decisive
+            </p>
+            <div>
+                <a href="#" class="button active-button" id="start-button">
+                    Start
+                </a>
+            </div>
+        </header>
+    </section>
+
+    <!-- End -->
+    <div id="end">
+        <header>
+            <h2>
+                Your cider <br />
+                is ready!
+            </h2>
+        </header>
+        <a href="#" class="button" id="restart-button"> See again</a>
+    </div>
+
+    <!-- Letters -->
+    <div class="letter" id="letter1">
+        <img src="img/key_a.png" class="letter-image"/>
+        <div class="key-line"></div>
+        <img src="img/keyboard_a.png" class="key-image"/>
+    </div>
+
+    <div class="letter" id="letter2">
+        <img src="img/key_p.png" class="letter-image"/>
+        <div class="key-line"></div>
+        <img src="img/keyboard_p.png" class="key-image"/>
+    </div>
+
+    <div class="letter" id="letter3">
+        <img src="img/keyboard_p.png" class="key-image"/>
+        <div class="key-line"></div>
+        <img src="img/key_p_2.png" class="letter-image"/>
+    </div>
+
+    <div class="letter" id="letter4">
+        <img src="img/key_s.png" class="letter-image"/>
+        <div class="key-line"></div>
+        <img src="img/keyboard_s.png" class="key-image"/>
+    </div>
+
+
+    <!-- Include js files -->
+	<script type="application/javascript" src="js/jquery.js"></script>
+	<script type="application/javascript" src="js/script.js"></script>
+
+</body>
+</html>
